@@ -32,11 +32,39 @@
     margin: 0;
 }
 body{
-    diplay: flex;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
-.container{
+/*.container{
     border: 2px solid greenyellow;
     height: 300px;
-    width: 600px
+    width: 600px;
+    display: flex;
+}*/
+
+.cards{
+    border: 2px solid greenyellow;
+    height: 600px;
+    width: 300px;
+    display: flex;
+   
+    
+}
+
+.first{
+    background-color: burlywood;
+   
+}
+.second{
+    background-color: chocolate;
+   
+}
+.third{
+    background-color: darksalmon;
+    
 }
