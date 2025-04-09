@@ -1,0 +1,42 @@
+/*.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+#box1{
+    background-color: aqua;
+    color: aliceblue;
+}
+#box2{
+    background-color: rgb(255, 0, 38);
+    color: aliceblue;
+}
+#box3{
+    background-color: rgb(76, 0, 255);
+    color: aliceblue;
+}
+#box4{
+    background-color: rgb(238, 255, 0);
+    color: aliceblue;
+}*/
+* 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    diplay: flex;
+}
+
+.container{
+    border: 2px solid greenyellow;
+    height: 300px;
+    width: 600px
+}
